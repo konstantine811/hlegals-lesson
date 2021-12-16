@@ -1,0 +1,18 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  &__content {
+    padding: 20px;
+  }
+  &__divider {
+    height: 4px;
+    background-color: $grey-4;
+    margin: 20px 0;
+  }
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__img {
+   width: 100%;
+  }
+}
